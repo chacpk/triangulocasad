@@ -24,25 +24,6 @@
         			    $i = 0;
         			}
         			$i++;
-        			//$module = $i % 3;
-        			//echo "<br>".$i;
-        			/*
-        			if ($i == 0 || $i == 1 || $i == 2) {
-        				//do something you'd do for the third item
-        				if ($strClass == "up" || $strClass == "")
-        					$strClass = "down";
-        				if ($strClass == "down")
-        					$strClass = "up";
-        				//$i++;
-        			}
-        			else 
-        			{ 
-        			    $i = 0;
-        			    //default behavior 
-        			    $strClass = "up";
-        			//}
-        			 *
-        			 */
         			?>
         				<div class="th" style="float: left;">
         				<a href="<?php echo base_url(); ?>detalle/<?php echo $row['id']?>">
