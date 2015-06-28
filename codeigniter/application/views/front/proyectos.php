@@ -13,8 +13,6 @@
         			?>
         			<?php foreach ($rows as $key => $row) { ?>
         			<?php 
-        			
-        			
         			if ($i == 0 || $i == 1 || $i == 2) {
         				
         			}
